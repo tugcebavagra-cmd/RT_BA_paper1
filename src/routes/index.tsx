@@ -827,11 +827,11 @@ function Index() {
                     </p>
 
                     <p className="mt-2 text-xs text-muted-foreground sm:text-sm">
-                        <sup>1</sup> German Aerospace Center (DLR), {" "}
+                        <sup>1</sup> German Aerospace Center (DLR), {" "}http://localhost:8080/
                         <sup>2</sup> University of Twente
                     </p>
-                    <p className="mt-2 text-2xl font-bold text-black sm:text-2xl">
-                        ISPRS UAV-g 2025 Best Paper Award
+                    <p className="mt-2 text-2xl text-black sm:text-2xl">
+                        <span className="font-bold"> Best Paper Award 🎖️</span>
                     </p>
 
                     <div className="mt-8 flex flex-wrap justify-center gap-3">
@@ -941,14 +941,14 @@ function Index() {
 
                     <div className="md:col-span-2">
                         <div className="rounded-2xl border border-border/60 bg-surface p-6">
-                            <h3 className="text-lg font-semibold text-foreground">
+                            <h3 className="text-2xl font-semibold text-foreground">
                                 Contributions
                             </h3>
-                            <ul className="mt-4 space-y-3">
+                            <ul className="mt-5 space-y-3">
                                 {contributions.map((item) => (
                                     <li
                                         key={item}
-                                        className="flex gap-3 text-sm leading-relaxed text-muted-foreground"
+                                        className="flex gap-3 text-l leading-relaxed text-muted-foreground"
                                     >
                                         <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/50" />
                                         <span>{item}</span>
